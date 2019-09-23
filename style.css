@@ -11,12 +11,25 @@ body {
     padding: .8rem;
 }
 
-.navbar-nav li {
-    padding-right: 20px;
+.margin-right-for-navbar-li {
+    margin-right: 50px;
 }
 
 .nav-link {
     font-size: 1.1em !important;
+}
+
+.btn-auth {
+    background: #484b50;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-family: Lato Bold;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer
 }
 
 .carousel-inner img {
